@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Object</title>
+</head>
+<body>
+    
+<button onclick="test1()">Click Here</button>
+    <button id="test2">Click Here</button>
+
+    <script>
+        "use strict";
+
+        
+       const test_object = {
+            name : "Ali",
+            Family : "Rooholamini",
+            list : [0,1,2,3,4,5],
+
+            testFunc : function() {
+                console.log(this);
+                console.log(this.name);
+                console.log(this.list);
+
+                this.list.forEach(function(elem){
+                    console.log(this);
+                }.bind(this));
+            }
+        }
+
+        test_object.testFunc();
+        
+
+
+        // ------- return window object ------ //
+        console.log(this);
+
+
+        // ------- return undefined on strict mode ------ //
+        function test1() {
+            console.log(this);
+        }
+
+        // ------- return HTML Code ------ //
+        function testFunc2(){
+            console.log(this);
+        }
+
+        var btn = document.getElementById("test2");
+        btn.onclick = testFunc2;
+
+
+
+
+
+    </script>
+</body>
+</html>
