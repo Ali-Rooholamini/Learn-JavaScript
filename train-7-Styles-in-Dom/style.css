@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+}
+.test.hidden{
+    opacity: 0;
+}
