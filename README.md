@@ -10,4 +10,7 @@ this Repository Will be Temporary
 4 - Dom Nodes 
 5 - Dom Attributes 
 6 - edit HTML with DOM 
+7 - Styles in Dom
+8 - Elements Geography
+9 - Dom Points
 ...
