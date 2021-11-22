@@ -13,4 +13,5 @@ this Repository Will be Temporary
 7 - Styles in Dom
 8 - Elements Geography
 9 - Dom Points
+10 - Parallax Scrolling
 ...
