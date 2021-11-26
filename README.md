@@ -14,4 +14,5 @@ this Repository Will be Temporary
 8 - Elements Geography
 9 - Dom Points
 10 - Parallax Scrolling
-...
+11 - Bom
+12 - JSON && AJAX
