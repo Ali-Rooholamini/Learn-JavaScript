@@ -31,4 +31,3 @@ xmlHttp.onreadystatechange = function() {
         XMLprocess(process);
     }
 }
-
