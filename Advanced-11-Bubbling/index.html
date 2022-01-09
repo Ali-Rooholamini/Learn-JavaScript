@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 10px 3px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form id="firstForm">
+        <button data-action="save">save</button>
+        <button data-action="reset">reset</button>
+        <button data-action="load">load</button>
+    </form>
+
+    <section id="firstDiv" style="width: 200px;height: 200px;background-color: red;display: flex;justify-content: center;align-items: center;" onclick="firstClick(event)">
+        <form style="width: 100px;height: 100px;background-color: green;display: flex;justify-content: center;align-items: center;">
+            <div style="width: 50px;height: 50px;background-color: pink;"></div>
+        </form>
+    </section>
+
+    <div style="width: 100%;height: 20px;background-color: yellowgreen;padding: 10px;" id="secondDiv">
+        <p style="margin: 0;">asdasdasdasda</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
