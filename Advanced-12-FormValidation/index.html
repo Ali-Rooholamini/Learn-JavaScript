@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FormValidation</title>
+</head>
+<body>
+    
+    <!-- main form for training -->
+    <form id="form1" name="firstForm">
+        <label for="">family : &nbsp; <input type="text" name="family" data-empty="notEmpty"> <span class="" style="display: none;"></span> </label> 
+        <label for="">email : &nbsp; <input type="email" name="email" data-empty="notEmpty" data-validation="emailVerify"> <span class="" style="display: none;"></span> </label>
+        <label for="favColor">
+            Favorite Color : &nbsp;&nbsp;
+            <select name="color" id="favColor">
+                <option>red</option>
+                <option>black</option>
+                <option>green</option>
+                <option>yellow</option>
+            </select>
+            <span class="" style="display: none;"></span>
+        </label>
+        <div>
+            <button id="submitBtn">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+
+    <!-- Second Test Form -->
+    <form id="form2" name="secondForm"></form>
+
+    <script src="main.js"></script>
+</body>
+</html>

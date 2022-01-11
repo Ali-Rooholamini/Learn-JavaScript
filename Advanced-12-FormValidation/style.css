@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input , form select{
+    width: 250px;
+    margin: 10px 0px;
+}
+.error{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block !important;
+}
